@@ -112,8 +112,11 @@ blockquote {
     color: #22cbe8;
 }
 /* Header */
+#MainHeader {
+    background-color: #666;
+}
 #MainHeader .slogan {
-    color: #ffffff;
+    color: #fff;
 }
 #MainHeader .slogan .square {
     background-color: #22cbe8;

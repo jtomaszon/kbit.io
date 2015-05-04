@@ -1,7 +1,3 @@
-@import '../colorbox/colorbox.css';
-@import '../flexslider/flexslider.css';
-@import '../revslider/css/settings.css';
-@import '../revslider/css/settings-ie8.css';
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,600italic,700italic,600,400italic,300italic,200italic,300,200&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 /*
@@ -25,9 +21,6 @@ TABLE OF CONTENT
 17. gmaps3
 18. blockquoteComponent
 19. prettyphoto
-20. d3
-21. flexslider
-22. revolution slider
 23. media queries, adjustments
 - @media (min-width: 990px) {}
 - @media (min-width: 990px) and (max-width: 1280px) {}
