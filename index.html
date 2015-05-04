@@ -6,19 +6,14 @@
     <meta name="author" content="CreateIT">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="./js/modernizr.js"></script>
-    <script src="./js/device.min.js"></script>
-
-    <title>kbit.io - Because We Can</title>
-
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/animate.css">
     <link rel="stylesheet" type="text/css" href="./css/cyan.css">
 
-    <!--[if lt IE 9]>
-    <script src="./bootstrap/js/html5shiv.js"></script>
-    <script src="./bootstrap/js/respond.min.js"></script>
-    <![endif]-->
+    <script src="./js/modernizr.js"></script>
+    <script src="./js/device.min.js"></script>
+
+    <title>kbit.io - Because We Can</title>
 
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
@@ -49,8 +44,6 @@
     <div class="fullscreen-slider-slogan fs-with-menu-bottom">
         <ul class="slides">
             <li><img src="./images/content/full-slider7.jpg" alt="preview"></li>
-            <li><img src="./images/content/full-slider8.jpg" alt="preview"></li>
-            <li><img src="./images/content/full-slider9.jpg" alt="preview"></li>
         </ul>
     </div>
 </header>
@@ -65,7 +58,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><strong>k</strong>bit</a>
+        <a class="navbar-brand" href="#"><strong>k</strong>bit.io</a>
     </div>
     <div class="triangle visible-md visible-lg"></div>
 
@@ -306,13 +299,6 @@
                                 </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <div class="circle-btn" data-toggle="tooltip" data-placement="bottom" title="Pinterest">
-                                    <p><i class="fa fa-pinterest"></i></p>
-                                </div>
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -360,13 +346,6 @@
                                 </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <div class="circle-btn" data-toggle="tooltip" data-placement="bottom" title="Pinterest">
-                                    <p><i class="fa fa-pinterest"></i></p>
-                                </div>
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -386,12 +365,12 @@
             </a>
 
             <div class="media-body">
-                <p class="h3">Twinkle, twinkle, little bat!<br>
-                    How I wonder what you're at.</p>
+                <p class="h3">Best automation processes!<br>
+                    We trust all our infrastructure...</p>
 
-                <p class="h5"><i>Jane Doe</i></p>
+                <p class="h5"><i>Michel Amaral</i></p>
 
-                <p class="h5"><i>CEO at Megasoft</i></p>
+                <p class="h5"><i>CEO at Designa</i></p>
             </div>
         </div>
     </div>
@@ -422,7 +401,7 @@
                                 <div class="circle-border-inside">
                                     <div class="circle">
                                         <div class="circle-content">
-                                            <span><embed src="http://boston.wp.themeforest.createit.pl/wp-content/themes/boston/theme/assets/images/content/bubble.svg" type="image/svg+xml"></span>
+                                            <span><embed src="./images/content/bubble.svg" type="image/svg+xml"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -455,7 +434,7 @@
                                 <div class="circle-border-inside">
                                     <div class="circle">
                                         <div class="circle-content">
-                                            <span><embed src="http://boston.wp.themeforest.createit.pl/wp-content/themes/boston/theme/assets/images/content/pencil.svg" type="image/svg+xml"></span>
+                                            <span><embed src="./images/content/pencil.svg" type="image/svg+xml"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -488,7 +467,7 @@
                                 <div class="circle-border-inside">
                                     <div class="circle">
                                         <div class="circle-content">
-                                            <span><embed src="http://boston.wp.themeforest.createit.pl/wp-content/themes/boston/theme/assets/images/content/settings.svg" type="image/svg+xml"></span>
+                                            <span><embed src="./images/content/settings.svg" type="image/svg+xml"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -553,14 +532,15 @@
                     Ups! An error occured. Please try again later.
                 </div>
 
-                <form class="form-inline validateIt" role="form" action="#" method="post" data-email-subject="Newsletter Form" data-show-errors="true" data-hide-form="true">
+                <form action="//kbit.us10.list-manage.com/subscribe/post?u=93ad1a80ca4c886b2620dd08a&amp;id=856fa5a8df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validateIt" role="form" data-email-subject="Newsletter Form" data-show-errors="true" data-hide-form="true">
                     <div class="row">
                         <div class="col-sm-9 col-xs-12 form-group">
-                            <input type="email" class="form-control input-lg" name="field[]"
-                                   placeholder="Your E-mail">
+                            <input type="email" class="form-control input-lg" name="EMAIL" placeholder="Your E-mail">
                         </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_93ad1a80ca4c886b2620dd08a_856fa5a8df" tabindex="-1" value=""></div>
                         <div class="col-sm-3 col-xs-12">
-                            <button type="submit" class="btn btn-white btn-lg btn-block">Sign Up</button>
+                            <button id="mc-embedded-subscribe" type="submit" class="btn btn-white btn-lg btn-block">Subscribe</button>
                         </div>
                     </div>
                 </form>
