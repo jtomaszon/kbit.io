@@ -7505,14 +7505,11 @@ ol span {
   bottom: 80px;
 }
 .parallax {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
   min-height: 500px;
   color: #ffffff;
   display: table;
   width: 100%;
+  background-color: #d7d7d7;
 }
 .parallax .inner {
   display: table-cell;

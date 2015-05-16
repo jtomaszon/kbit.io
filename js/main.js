@@ -122,46 +122,6 @@ jQuery(window).scroll(function () {
     scrollToTop('show');
 });
 
-//Begin Parallax
-
-jQuery(window).load(function () {
-    "use strict";
-
-    /* parallax effect */
-    if (!device.mobile()) {
-        jQuery("#MainHeader").parallax("50%", 0.2);
-        jQuery("#Parallax1").parallax("50%", 0.2);
-        jQuery("#Parallax2").parallax("50%", 0.2);
-        jQuery("#Parallax3").parallax("50%", 0.2);
-        jQuery("#Parallax4").parallax("50%", 0.2);
-    }
-});
-
-jQuery(window).resize(function () {
-    if (!device.mobile()) {
-        setTimeout(function () {
-            jQuery("#MainHeader").parallax("20%", 0.4, true);
-        }, 500);
-
-        setTimeout(function () {
-            jQuery("#Parallax1").parallax("60%", 0.4, true);
-        }, 500);
-
-        setTimeout(function () {
-            jQuery("#Parallax2").parallax("20%", 0.4, true);
-        }, 500);
-
-        setTimeout(function () {
-            jQuery("#Parallax3").parallax("60%", 0.4, true);
-        }, 500);
-
-        setTimeout(function () {
-            jQuery("#Parallax4").parallax("60%", 0.4, true);
-        }, 500);
-    }
-
-}); //End Parallax
-
 //Begin PieChart
 jQuery('.pie-chart').each(function () {
     var $t = jQuery(this);
