@@ -41,7 +41,7 @@ jQuery(document).ready(function ($) {
 
         $.ajax({
             url: $f.attr('action'),
-            method: 'post',
+            method: 'get',
             data: $f.serialize(),
             dataType: 'json',
             success: function (data) {
@@ -88,7 +88,7 @@ jQuery(document).ready(function ($) {
     });
 
     function cleanupForm($f) {
-        $f.find('.temp, .').remove();
+        //$f.find('.temp, .').remove();
 
         $f.find('[data-previous-name]').each(function () {
             var $e = jQuery(this);
