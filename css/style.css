@@ -9912,10 +9912,10 @@ footer .search button {
 }
 .map .googleMap .googleMap-description img {
   position: absolute;
-  top: 30px;
-  right: 30px;
-  width: 90px;
-  height: 70px;
+  top: 20px;
+  right: 20px;
+  width: 120px;
+  height: 75px;
   overflow: hidden;
 }
 .map .googleMap.small {

@@ -57,7 +57,7 @@
       <li class="onepage"><a href="#team">Team</a></li>
       <li class="onepage"><a href="#services">Services</a></li>
       <li class="onepage"><a href="#contact-us">Contact Us</a></li>
-      <li><a href="http://blog.kbit.io">Blog</a></li>
+      <li><a href="#">Blog</a></li>
     </ul>
   </div>
   <!-- /.navbar-collapse -->
@@ -504,11 +504,13 @@
           Ups! An error occured. Please try again later.
         </div>
 
-        <form class="form-inline validateIt" role="form" action="#" method="get" data-email-subject="Newsletter Form" data-show-errors="true" data-hide-form="true">
+        <form class="form-inline" role="form" action="http://formspree.io/pro@kbit.io" method="POST">
           <div class="row">
             <div class="col-sm-9 col-xs-12 form-group">
-              <input type="email" class="form-control input-lg" name="field[]"
-                   placeholder="Your E-mail">
+              <input type="email" class="form-control input-lg" name="email"
+                   placeholder="Your E-mail" />
+              <input type="hidden" name="_subject" value="NewsLetter kbit.io" />
+	      <input type="hidden" name="_next" value="/#MainHeader" />
             </div>
             <div class="col-sm-3 col-xs-12">
               <button type="submit" class="btn btn-white btn-lg btn-block">Sign Up</button>
@@ -536,7 +538,7 @@
 <div class="map">
   <div id="googleMap" class="googleMap" data-location="Guaratingueta, São Paulo"
      data-text="
-      <img src='./images/content/location.jpg' alt='image'>
+      <img src='./images/content/kbit-logo.png' alt='image'>
       <p class='map-description-header'>
         <span class='logo color-font'>
           <strong>k</strong>bit.io
@@ -569,25 +571,27 @@
       </div>
     </div>
 
-    <form role="form" action="#" method="post" class="contactForm validateIt" data-email-subject="Contact Form" data-show-errors="true">
+    <form role="form" action="http://formspree.io/pro@kbit.io" method="POST" class="contactForm">
       <div class="row">
         <div class="col-md-6 col-sm-6">
           <div class="form-group">
-            <input required type="text" name="field[]" class="form-control input-lg" placeholder="Name">
+            <input required type="text" name="name" class="form-control input-lg" placeholder="Name">
           </div>
           <div class="form-group">
-            <input required type="email" name="field[]" class="form-control input-lg" placeholder="E-mail">
+            <input required type="email" name="email" class="form-control input-lg" placeholder="E-mail">
           </div>
           <div class="form-group">
-            <input required type="tel" name="field[]" class="form-control input-lg" placeholder="Phone">
+            <input type="tel" name="telephone" class="form-control input-lg" placeholder="Phone">
           </div>
         </div>
         <div class="col-md-6 col-sm-6">
           <div class="form-group">
-            <textarea class="form-control input-lg" rows="4" name="field[]" required
+            <textarea class="form-control input-lg" rows="4" name="message" required
                   placeholder="Your message"></textarea>
           </div>
           <button type="submit" class="btn btn-default btn-lg btn-block">Send Message</button>
+	  <input type="hidden" name="_subject" value="Message kbit.io" />
+	  <input type="hidden" name="_next" value="/#contact-us" />
         </div>
       </div>
     </form>
